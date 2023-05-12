@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Catalog', async ({ page }) => {
   //await page.goto('https://portal-test.goya.com/oms2/#/home');
   await page.goto('https://portal-test.goya.com/oms2/#/login');
   await page.getByPlaceholder('Username').click();
