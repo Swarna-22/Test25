@@ -19,7 +19,7 @@ test.describe('test', () => {
         await page.getByPlaceholder('Username').fill('013506');
         await page.getByPlaceholder('Password').fill('Pwd@013506');
         await page.getByRole('button', { name: 'Login' }).click();
-        //Add assertions to verify the URL of the home page .
+        //Add assertions to verify the URL of the home page ..
         await expect(page).toHaveURL('https://portal-test.goya.com/oms2/#/home');
 
     })
