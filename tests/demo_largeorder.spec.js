@@ -36,7 +36,7 @@ test.describe('test', () => {
 
     test('Create Order', async () => {
 
-        //Add assertions to verify the Order button.
+        //Add assertions to verify the Order button..
 
         await expect(page.getByRole('button', { name: 'Order', exact: true })).toBeEnabled();
         await page.getByRole('button', { name: 'Order', exact: true }).click();
